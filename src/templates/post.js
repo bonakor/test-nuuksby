@@ -103,7 +103,7 @@ export const pageQuery = graphql`
           sizes
           sourceUrl
           srcSet
-          content
+          content: description
         }
         tags {
           nodes {

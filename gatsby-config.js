@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: "gatsby-wpgraphql-inline-images",
       options: {
-        wordPressUrl: `https://gatsby.nuuk.fr/`,
-        uploadsUrl: `https://gatsby.nuuk.fr/wp-content/uploads/`,
+        wordPressUrl: `https://gatsby.nuuk.fr`,
+        uploadsUrl: `https://gatsby.nuuk.fr/wp-content/uploads`,
         processPostTypes: ["Page", "Post"],
         graphqlTypeName: `WPGraphQL`,
       },
